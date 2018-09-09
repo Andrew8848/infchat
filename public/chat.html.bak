@@ -14,9 +14,7 @@
   <div id="app">
     <div class="chat">
       <div class="chat-users collection">
-        <a class="collection-item" v-for="user in 3" :class="{'active': user === 1}">
-           User {{user}}
-       </a>
+        <a class="collection-item" v-for="user in 3" :class="{'active': user === 1}">User {{user}}
       </div>
 
       <div class="chat-messages">

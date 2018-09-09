@@ -1,6 +1,6 @@
 class Users {
   constructor() {
-    this.users = []
+    this.user = []
   }
 
   add(id, name, room) {
@@ -16,7 +16,7 @@ class Users {
   remove(id) {
     const user = this.get(id)
     if (user) {
-      this.users = this.users.filter(u => u.id !== user.id)
+     this.users = this.users.filter(u => u.id !== user.id)
 
   }
   return user
